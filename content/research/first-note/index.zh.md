@@ -6,4 +6,10 @@ draft: false
 
 最近一个很直接的感受是：研究推进往往不是靠一次大突破，而是靠连续几天把同一个问题盯住。
 
+test math:
+
+$$
+\theta_{j} := \theta_{j} - \alpha \frac{\partial}{\partial \theta_{j}} J(\theta)
+$$
+
 很多时候，真正拉开差距的不是“想法是否足够惊艳”，而是有没有把一个模糊的直觉压成可验证的假设。
