@@ -1,0 +1,47 @@
+baseURL: 'https://siyuan-harry.github.io/'
+title: 'Siyuan Blog'
+theme: 'PaperMod'
+defaultContentLanguage: 'en'
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true          # 允许原生传递数学公式符号
+        delimiters:
+          block:
+            - ['$$', '$$']
+            - ['\\[', '\\]']
+          inline:
+            - ['$', '$']
+            - ['\\(', '\\)']
+
+params:
+  env: production
+  defaultTheme: auto          # 自动跟随系统亮暗模式
+  ShowReadingTime: true
+  ShowShareButtons: false
+  math: true                  # 全局开启数学公式支持宏
+
+languages:
+  en:
+    label: "English"
+    title: "Siyuan Blog"
+    weight: 2
+    menu:
+      main:
+        - identifier: "research"
+          name: "Research"
+          url: "/research/"
+          weight: 10
+
+  zh:
+    label: "中文"
+    title: "Siyuan Blog"
+    weight: 1
+    menu:
+      main:
+        - identifier: "research"
+          name: "研究"
+          url: "/zh/research/"
+          weight: 10
