@@ -26,6 +26,7 @@ params:
 languages:
   en:
     label: "English"
+    locale: "en-US"
     title: "Siyuan Blog"
     weight: 2
     menu:
@@ -37,6 +38,7 @@ languages:
 
   zh:
     label: "中文"
+    locale: "zh-CN"
     title: "Siyuan Blog"
     weight: 1
     menu:

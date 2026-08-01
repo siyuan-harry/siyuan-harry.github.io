@@ -2,4 +2,4 @@
 title: "Research"
 ---
 
-Notes, experiments, and longer-form thinking.
+I do ml research slowly.

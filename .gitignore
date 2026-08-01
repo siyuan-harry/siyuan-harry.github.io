@@ -8,6 +8,10 @@ resources/_gen/
 .vscode/
 .idea/
 
+# 工程文件
+plan/
+drafts/
+
 # Logs
 *.log
 
