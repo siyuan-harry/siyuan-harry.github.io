@@ -37,7 +37,7 @@ https://github.com/siyuan-harry/llm-from-scratch.
 
 本期手搓 qwen3.8 的代码已开源: https://github.com/siyuan-harry/qwen38-from-scratch ，欢迎大家点点 stars，也希望能帮助到各位同行的研究工作。我们接下来开始做简单的架构拆解。
 
-## 1. 全景：Qwen3.0 dense vs Qwen3.8（约 1.5 分钟）
+## 1. 概览 Qwen3.0 dense vs Qwen3.8
 
 | 部件 | 上期 Qwen3.0（我们的实现） | Qwen3.8 |
 |---|---|---|
