@@ -1,6 +1,6 @@
 
 ---
-title: "从零手搓 Qwen3.8：一次架构演进的逐件拆解"
+title: "从零手搓并训练 Qwen3.8: 拆解最新开源 LLM 技术架构"
 date: 2026-11-13T00:00:00+08:00
 draft: false
 summary: "从 Qwen3.0 到 Qwen3.8，Transformer 的几乎每个部件都被工程化地重写了。这篇记录自己手搓 Gated DeltaNet、Gated Attention、Partial RoPE、Zero-centered RMSNorm 和稀疏 MoE 的全过程，以及和 HuggingFace 实现的逐项数值对齐。"
