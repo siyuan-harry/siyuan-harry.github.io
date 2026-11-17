@@ -5,6 +5,8 @@ defaultContentLanguage: 'en'
 
 markup:
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       passthrough:
         enable: true          # 允许原生传递数学公式符号
