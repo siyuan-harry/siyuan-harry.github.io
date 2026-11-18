@@ -24,6 +24,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: false
   math: true                  # 全局开启数学公式支持宏
+  comments: true
 
 languages:
   en:
