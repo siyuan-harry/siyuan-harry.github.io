@@ -1,7 +1,7 @@
 ---
 title: "There's No Perpetual Motion Machine for AI Progress: Why Does the Future of AI Still Depend on Infrastructure Built by Humans?"
 date: 2026-11-17T12:00:00+08:00
-draft: true
+draft: false
 summary: "From synthetic data and recursive self-improvement to world models, this essay looks at how information, verifiers, and causality constrain the growth of AI capabilities."
 showToc: true
 tocOpen: false
