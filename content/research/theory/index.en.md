@@ -74,6 +74,8 @@ The principle I've been getting at is that models get better when they have acce
 
 There is no third source. Information cannot come from nowhere. This sets a theoretical upper bound on RSI and, more broadly, on all AI training.
 
+> More computation or a better search procedure can still improve performance on a fixed task by making better use of the information already available. This does not contradict with the claim.
+
 <center>*</center>
 
 Let's look in turn at where (1) new data and (2) verifier criteria stand today, in November 2026. Then we can reason from current practice and theory about in what sense RSI might be real.
@@ -88,7 +90,7 @@ What would a verifier for RSI look like? [Anthropic's definition](https://www.an
 
 A careful reader may already have spotted the logical gap. The question is what standard we use to judge whether a model has **become more capable**. Today, models demonstrate improvements on human-calibrated benchmarks. If successive models exhaust the human-designed benchmarks, they'll have to find new data and define new tests. If those tests and data come entirely from inside the loop, how does the system know whether it has improved or just gotten better at satisfying its own criteria? Work on self-correction has shown how unreliable it can be without external feedback (Huang et al., 2024).
 
-This is where they run up against the theoretical upper bound I've been emphasizing throughout this essay. So RSI does not, by its own logic, directly lead to an intelligence explosion.
+RSI can yield real gains. The case for an intelligence explosion needs evidence that those gains carry over beyond the loop's own tests - we have not seen this yet.
 
 The very definition of RSI may also be logically puzzling. An intelligent model obtained through compression “recursively” trains itself ... anyway, I don't think that's a question worth pursuing.
 
